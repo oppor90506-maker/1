@@ -12,7 +12,7 @@ end
 
 -- Lógica do Discord (Clipboard + Invite)
 local function JoinDiscord()
-    local inviteCode = ""
+    local inviteCode = "FTnB3ywS9e"
     if setclipboard then setclipboard("https://discord.gg/"..inviteCode) end
     
     local httpRequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
